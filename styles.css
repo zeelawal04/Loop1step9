@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7cd75;
+}
+main {
+  height: 75vh;
+  width: 65%;
+  background-color: white;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 60%;
+}
+
+.sc1 {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2.2rem;
+}
+.wallet {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.pymt {
+  margin-top: 2rem;
+}
+
+.visa {
+  border: 0.2rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.img {
+  width: 30%;
+}
+
+.mastercard {
+  border: 0.2rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.maestro {
+  border: 0.2rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.bln {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.crt {
+  color: rgba(0, 0, 0, 0.2);
+}
+.prc {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.first {
+  padding: 2rem;
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.minus {
+  width: 5%;
+  border-radius: 50%;
+  background-color: azure;
+}
+
+.pri {
+  color: blue;
+  font-weight: bolder;
+}
+
+.six {
+  margin: 0 7rem 0;
+}
